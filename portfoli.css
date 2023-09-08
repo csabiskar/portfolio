@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500;600&display=swap');
+#about{
+    background: linear-gradient(rgb(49, 25, 62),#191924);
+    min-height: 100vh;
+}
+.aboutme{
+    /* margin-top: 200px; */
+}
+.aboutimg{
+    width: 300px;
+    height:300px;
+   
+    /* border-radius: 50%; */
+    object-fit: cover;
+}
+ body{
+     margin: 0px;
+     padding: 0px;
+     font-family: 'Alegreya', serif;
+     background: linear-gradient(rgb(49, 25, 62),#191924);
+} 
+@media only screen and (min-width: 992px) {
+.aboutme{
+    margin-top: 180px;
+}
+.aboutimg{
+    margin-top: 130px;
+}
+}
+@media only screen and (max-width:600px) {
+    .aboutme{
+        margin-top: 90px;
+        text-align: center;
+    }
+    .aboutimg{
+        margin-top: 40px;
+    }
+}
+.dark{
+    background: linear-gradient(#191924,rgb(49, 25, 62));
+}
+.aboutBtn{
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    background: linear-gradient(rgb(217, 0, 255),rgb(168, 0, 255));
+    color: white;
+    border: 1px solid rgb(217, 0, 255);
+    transition: 0.4s;
+    box-shadow: 0px 0px 10px 0px rgb(217, 0, 255);
+}
+.aboutBtn:hover{
+    transform:scale(0.7)
+}
+
+/* skills */
+#skills{
+    background: linear-gradient(#191924,rgb(49, 25, 62));
+    min-height: 100vh;
+    color: white;
+}
+.title{
+    margin-top: 60px;
+}
+
+.fsIconsize{
+    width: 40px;
+    height: 60px;
+    object-fit: contain;
+    margin-top: 12px;
+}
+.fs2{
+    border-radius: 20px;
+}
+.carOne{
+min-width: 40%;
+min-height: 40%;
+border: 1px solid rgb(0, 251, 255) !important;
+box-shadow: 0px 0px 10px 0px rgb(71, 246, 255);
+border-radius: 20px;
+}
+
+.fs1{
+   width: 150px;
+   height: 70px;
+   border: 1px solid whitesmoke;
+   margin-top: 10px;
+   margin-left: 10px;
+   border-radius: 10px;
+}
+.cssIcon{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-top: 12px;
+}
+.btsIcon{
+    width: 70px;
+    height: 20px;
+    object-fit: contain;
+    margin-top: 12px;
+}
+.aiIcon{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-top: 15px;
+}
+.mt{
+    margin-top: 20px;
+}
+.dreamIcon{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-top: 15px;  
+}
+.fs3{
+    width: 180px;
+    height: 70px;
+    border: 1px solid whitesmoke;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.others{
+    
+}
+@media screen and (min-width:992px) {
+    .others{
+        margin-left: 280px;   
+    }
+}
+
+/* education */
+
+#education{
+    background: linear-gradient(rgb(49, 25, 62),#191924);
+    min-height: 100vh;
+    color: white;
+}
+.cardTwo{
+ min-width:40%;
+min-height: 30%;
+border: 1px solid rgb(0, 251, 255) !important;
+box-shadow: 0px 0px 10px 0px rgb(71, 246, 255);
+border-radius: 20px;
+}
+.eduimg{
+    width: 500px;
+    height: 500px;
+}
+.clgname{
+    /* width: 550px; */
+    font-size: 25px;
+    font-weight: bolder;
+}
+.edu{
+
+}
+@media screen and (min-width:992px) {
+    .edu{
+       margin-top: 40px;  
+    }
+}
+.schlname{
+    /* width: 550px; */
+    font-size: 25px;
+    font-weight: bolder;
+}
